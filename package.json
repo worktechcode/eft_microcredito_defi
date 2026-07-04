@@ -1,0 +1,21 @@
+{
+  "name": "eft-microcredito-defi",
+  "version": "1.0.0",
+  "description": "Boilerplate de Microcréditos Colateralizados en DeFi - Duoc UC",
+  "type": "module",
+  "main": "deploy.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run deploy.js",
+    "test": "npx hardhat test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.0",
+    "@nomicfoundation/hardhat-node-test-runner": "^3.0.17",
+    "ethers": "^6.0.0",
+    "hardhat": "^3.0.0"
+  }
+}
